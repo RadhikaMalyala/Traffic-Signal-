@@ -1,0 +1,60 @@
+int EASTX=1;
+int EASTY=2;
+int EASTZ=3;
+int WESTX=4;
+int WESTY=5;
+int WESTZ=6;
+int NORTHX=7;
+int NORTHY=8;
+int NORTHZ=9;
+int SOUTHX=10;
+int SOUTHY=11;
+int SOUTHZ=12;
+void setup(){
+pinMode(EASTX, OUTPUT);
+pinMode(EASTY, OUTPUT);
+pinMode(EASTZ, OUTPUT);
+pinMode(WESTX, OUTPUT);
+pinMode(WESTY, OUTPUT);
+pinMode(WESTZ, OUTPUT);
+pinMode(NORTHX, OUTPUT);
+pinMode(NORTHY, OUTPUT);
+pinMode(NORTHZ, OUTPUT);
+pinMode(SOUTHX, OUTPUT);
+pinMode(SOUTHY, OUTPUT);
+pinMode(SOUTHZ, OUTPUT);
+}
+void loop(){
+digitalWrite(EASTX,LOW);//East//
+digitalWrite(EASTZ,HIGH);
+delay(3000);
+digitalWrite(EASTZ,LOW);
+digitalWrite(EASTY,HIGH);
+delay(1000);
+digitalWrite(EASTY,LOW);
+digitalWrite(EASTX,HIGH);
+digitalWrite(WESTX,LOW);//West//
+digitalWrite(WESTZ,HIGH);
+delay(3000);
+digitalWrite(WESTZ,LOW);
+digitalWrite(WESTY,HIGH);
+delay(1000);
+digitalWrite(WESTY,LOW);
+digitalWrite(WESTX,HIGH);
+digitalWrite(NORTHX,LOW);//North//
+digitalWrite(NORTHZ,HIGH);
+delay(3000);
+digitalWrite(NORTHZ,LOW);
+digitalWrite(NORTHY,HIGH);
+delay(1000);
+digitalWrite(NORTHY,LOW);
+digitalWrite(NORTHX,HIGH);
+digitalWrite(SOUTHX,LOW);//South//
+digitalWrite(SOUTHZ,HIGH);
+delay(3000);
+digitalWrite(SOUTHZ,LOW);
+digitalWrite(SOUTHY,HIGH);
+delay(1000);
+digitalWrite(SOUTHY,LOW);
+digitalWrite(SOUTHX,HIGH);
+}
