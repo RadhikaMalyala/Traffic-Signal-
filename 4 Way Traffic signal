@@ -33,6 +33,7 @@ digitalWrite(EASTY,HIGH);
 delay(1000);
 digitalWrite(EASTY,LOW);
 digitalWrite(EASTX,HIGH);
+
 digitalWrite(WESTX,LOW);//West//
 digitalWrite(WESTZ,HIGH);
 delay(3000);
@@ -41,6 +42,7 @@ digitalWrite(WESTY,HIGH);
 delay(1000);
 digitalWrite(WESTY,LOW);
 digitalWrite(WESTX,HIGH);
+
 digitalWrite(NORTHX,LOW);//North//
 digitalWrite(NORTHZ,HIGH);
 delay(3000);
@@ -49,6 +51,7 @@ digitalWrite(NORTHY,HIGH);
 delay(1000);
 digitalWrite(NORTHY,LOW);
 digitalWrite(NORTHX,HIGH);
+
 digitalWrite(SOUTHX,LOW);//South//
 digitalWrite(SOUTHZ,HIGH);
 delay(3000);
